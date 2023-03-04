@@ -39,9 +39,17 @@
     .task {
         border: 1px solid rgb(51, 51, 51);
         border-radius: 5px;
-        font-weight: 600;
+        font-weight: 500;
         padding: 10px;
         margin: 10px;
+        color: rgb(198, 198, 198);
+        transition: 0.2s;
+    }
+
+    .task:hover {
+        background-color: rgb(63, 63, 63);
+        color: white;
+        font-size: 1.1rem;
     }
 
     .title {
@@ -50,7 +58,22 @@
         text-align: center;
         margin: 10px;
         margin-top: 10vw;
+        margin-bottom: 3vh;
+    }
+
+    .pledges-lost {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        margin-top: 4vh;
         margin-bottom: 2vh;
+    }
+
+    .pledges {
+        font-weight: bold;
+        text-align: center;
+        color: rgb(124, 124, 124)
     }
 </style>
 
@@ -72,6 +95,9 @@
         proof of full fight required</div>
     <div class="task">10. (Hard) One pledge must pass the "Gauntlet" Challenges. Text an active to schedule your
         ascension.</div>
+
+    <div class="pledges-lost">💀 Pledge Souls Lost:</div>
+    <div class="pledges">TBD </div>
 </body>
 
 </html>
